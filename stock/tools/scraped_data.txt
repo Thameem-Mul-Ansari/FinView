@@ -1,0 +1,110 @@
+System 1 and System 2 Thinking
+The Basic Idea
+The Basic Idea
+Key Terms
+History
+People
+Consequences
+Controversies
+Case Study
+Related TDL Content
+Sources
+The Basic Idea
+Key Terms
+History
+People
+Daniel Kahneman
+William James
+Michael Posner
+Consequences
+Controversies
+Case Study
+Related TDL Content
+Sources
+The Basic Idea
+Theory, meet practice
+TDL is an applied research consultancy. In our work, we leverage the insights of diverse fields—from psychology and economics to machine learning and behavioral data science—to sculpt targeted solutions to nuanced problems.
+Our consulting services
+When commuting to work, you always know which route to take without having to consciously think about it. You automatically walk to the subway station, habitually get off at the same stop, and walk to your office while your mind wanders. It’s effortless. However, the subway line is down today.
+While your route to the subway station was intuitive, you now find yourself spending some time analyzing alternative routes to work in order to take the quickest one. Are the buses running? Is it too cold outside to walk? How much does a rideshare cost?
+Our responses to these two scenarios demonstrate the differences between our slower thinking process and our instantaneous one. System 1 thinking is a near-instantaneous process; it happens automatically, intuitively, and with little effort. It’s driven by instinct and our experiences. System 2 thinking is slower and requires more effort. It is conscious and logical.
+However, even when we think that we are being rational in our decisions, our System 1 beliefs and biases still drive many of our choices. Understanding the interplay of these two systems in our daily lives can help us become more aware of the bias in our decisions – and how we can avoid it.
+The automatic operations of System 1 generate surprisingly complex patterns of ideas, but only the slower System 2 can construct thoughts in an orderly series of steps.
+– Daniel Kahneman inThinking, Fast and Slow
+Theory, meet practice
+TDL is an applied research consultancy. In our work, we leverage the insights of diverse fields—from psychology and economics to machine learning and behavioral data science—to sculpt targeted solutions to nuanced problems.
+Our consulting services
+Key Terms
+System 1 Thinking: Our brains’ fast, automatic, unconscious, and emotional response to situations and stimuli. This can be in the form of absentmindedly reading text on a billboard, knowing how to tie your shoelaces without a second thought, or instinctively hopping over a puddle on the sidewalk.
+System 2 Thinking: The slow, effortful, and logical mode in which our brains operate when solving more complicated problems. For example, System 2 thinking is used when looking for a friend in a crowd, parking your vehicle in a tight space, or determining the quality-to-value ratio of your take-out lunch.
+Automatic Thinking: An unconscious and instinctive process of human thinking. This term can be used interchangeably with System 1 thinking.
+Reasoning: Consciously using existing information to logically make a decision or reach a conclusion.
+Dual Process Model: A theory in psychology that distinguishes two thought processes in humans by describing them as unconscious and conscious, respectively.
+History
+For many centuries, philosophers and psychologists have been able to differentiate instinctive thinking and conscious reasoning, starting as early as the 17th century with Descartes’ mind-body dualism.
+William James, an American psychologist, was at the root of this idea in the late 19th century. In his book, Principles of Psychology, James believed that associative and true reasoning formed the two ways of thinking.1,2 Associative knowledge was derived only from past experiences, as opposed to true reasoning being used in new, unfamiliar scenarios that an individual is unfamiliar with. James’s ideas laid the groundwork for System 1 and System 2 thinking.
+In 1975, psychologists Michael Posner and Charles Snyder developed the dual-process model of the mind in their book, Attention and Cognitive Control. The dual-process model was a more polished version of James’ ideas, distinguishing the two ways of thinking by describing them as automatic and controlled, respectively.3
+As the theory developed, automatic processes were characterized by four conditions:
+They are elicited unintentionally;
+They require only a small amount of cognitive resources;
+They cannot be stopped voluntarily; and
+They happen unconsciously.
+Likewise, controlled processes were characterized by four conditions:
+They are elicited intentionally;
+They require a considerable amount of cognitive resources;
+They can be stopped voluntarily; and
+They happen consciously.
+However, in 1992, John Bargh challenged these rigid characteristics and suggested that it was virtually impossible for any process to satisfy all four characteristics.4
+Fast forward to 2011, and Daniel Kahneman published his bestselling book, Thinking, Fast and Slow, popularizing the distinction between automatic and conscious thought processes.5 In this book, Kahneman incorporated the terms System 1 and System 2 to describe the two processes, first coined by psychologists Keith Stanovich and Richard West in 2000.6
+People
+Daniel Kahneman
+A renowned psychologist in the field of behavioral economics who was influential in topics such as judgement and decision-making. Kahneman’s 2011 book, Thinking, Fast and Slow, popularized the concepts of System 1 & System 2.
+William James
+An American psychologist, philosopher, and historian who is credited with laying the initial groundwork for two different types of thinking in the late 19th century. His work would go on to influence formal literature on the dual process model in the late 20th century. At Harvard University, James was one of the very first educators to offer a psychology course in the United States.7
+Michael Posner
+An American psychologist who, along with Charles Snyder, was one of the first to formally introduce the dual process model. Posner and Snyder’s book, Attention and Cognitive Control, described the two forms of thinking as automatic and controlled, respectively.
+Consequences
+Case 1: Marketing
+The concepts of System 1 and System 2 have become highly influential in the world of marketing. In a world where consumers have more options than ever, brands often rely on the automatic, feelings-driven processes of System 1 to sell their products. Advertising seeks not just to communicate information about a product, but also to establish certain emotional associations around it that will stick in customers’ heads and drive them to purchase it without extra thought.
+The power of System 1 thinking means that overhauled and refreshed marketing campaigns may not be as effective as initially thought. As competition continues to grow fiercely in the field of marketing, many brands are attempting bold, radically new campaigns. However, overhauled campaigns may get rid of the valuable, distinctive features that shape consumers’ automatic perception of the brand’s image.8 By leveraging a brand’s distinctive image to increase its resonance in consumers’ System 1 thinking, a greater return on investment can be created in the short and long term.8
+That doesn’t mean that System 2 doesn’t play an important role in consumer decisions. For expensive purchases, consumers tend to make decisions based on System 1 beliefs, in addition to a more careful and rational thought-process driven by System 2.8 Brands can use their knowledge of System 2 to provide a powerful justification, reinforcing consumers’ System 1 beliefs with details, facts or statistics.8
+Case 2: Financial planning
+Governments can also take advantage of System thinking to develop effective behavioral interventions. Recognizing System 1 thinking’s automatic preference for the default has led to the development of effective interventions, addressing issues such as insufficient retirement savings.9
+In the United States, behavioral economists recognized that even when workers received a raise, few would actually take action to increase their savings rate. They concluded that the lack of action was a sign of an overreliance on System 1 thinking.
+In this case, the default option kept the savings rate the same, unless a worker took action to increase it. To tackle the problem, behavioral economists designed an intervention that automatically increased a worker’s savings rate whenever they received a raise. The automatic increase was able to take advantage of workers’ System 1 thinking to increase savings rates in the US.9
+Controversies
+The concepts of System 1 and System 2 thinking have become common in mainstream thinking. The transition from academia to popular culture has resulted in the original theory losing some of its nuance and depth, replaced by simplifications of human thought processes. There are three common misconceptions that have emerged in popular culture.5
+First is the idea that System 1 and System 2 thinking literally represents our brain structure. This is false, and Kahneman even says that “there is no part of the brain that either of the systems would call home.”10
+Second is the idea that System 1 thinking occurs first, followed by System 2 thinking if necessary. Kahneman explains that the dual-system approach combines both forms of reasoning as almost all processes are a mix of both systems. Though difficult scenarios may rely more on System 2, both systems work together. Emotions from our unconscious System 1 processes influence and complement our logical System 2 thinking, and our brain integrates the two to enable us to make purposeful decisions.5
+Finally, popular culture tends to incorrectly label System 1 as the source of bias, and System 2 as the logical correction to said biases. In fact, both systems are susceptible to biases and mistakes, such as confirmation bias.5 For example, we may notice information when it supports our existing System 1 beliefs, in addition to using System 2 to analyse new information in order to justify our existing beliefs as a result of the confirmation bias.5
+Case Study
+In 1995, the popularity of M&M’s, the multi-colored chocolate candy, was decreasing. BBDO, an advertising agency, was recruited in an attempt to revitalize the brand. Then-creative director, Susan Credle, had a small budget to work with compared to other iconic brands, like Pepsi or Coke. However, Credle’s approach was highly successful: she made each colour of M&M candy into a character – a ‘spokescandy’.11 BBDO introduced Red (the sarcastic one), Yellow (the happy one), Blue (the cool one), and Green (the seductive one).
+This move resulted in the creation of M&M retail stores and multiple M&M line extensions.11 The characters became so popular that, in an attempt to prevent consumers from losing interest, BBDO experimented with occasionally removing them from television advertisements. In response, consumers would ask where the characters had gone.11 The characters were eventually reinstalled, and today, remain easily identifiable.
+By developing memorable characters, BBDO was able to successfully ingrain M&M into consumers’ System 1 thinking. This was achieved on a sustainable, mass scale by creating distinctive brand assets. This not only deepens M&M’s resonance in consumers’ System 1 thinking, it also creates more return on investment in the short and long run.11
+Related TDL Content
+Automatic Thinking
+The Decision Lab takes a closer look at automatic thinking by considering its history, in addition to the consequences and controversies, it is associated with.
+How to Protect An Aging Mind From Financial Fraud
+Although aging is inevitable, financial fraud in old age isn’t. Elderly individuals in the US alone lose an estimated $3 billion a year to financial scams. System 1 thinking can play a part in this, and research by The Decision Lab offers insights into how this reality can be avoided.
+Sources
+Dual-process model. (n.d.). Oxford Reference. https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095732808
+Dual-process models. (n.d.). Psychology Wiki. Retrieved October 12, 2021, from https://psychology.wikia.org/wiki/Dual_process_models
+Gawronski, B., & Creighton, L. A. (2013). Dual process theories. In D. E. Carlston (Ed.), The Oxford handbook of social cognition (pp. 282–312). Oxford University Press.
+Bargh, J. A. (1992). The ecology of automaticity: Toward establishing the conditions needed to produce automatic processing effects. The American Journal of Psychology, 105(2), 181. https://doi.org/10.2307/1423027
+System 1 and System 2 Thinking. (n.d.). The Marketing Society. https://www.marketingsociety.com/think-piece/system-1-and-system-2-thinking#_ftn1
+Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? Behavioral and Brain Sciences, 23(5), 645-665. https://doi.org/10.1017/s0140525x00003435
+William James. (n.d.). Department of Psychology. https://psychology.fas.harvard.edu/people/william-james#:~:text=In%201875%20James%20taught%20one,Stanley%20Hall%20in%201878
+What is ‘System 1’ thinking—and why do you need to learn it? (17, September 19). Observer. https://observer.com/2017/09/what-is-system-1-thinking-and-how-do-you-do-it/
+Zheng, J. (2012, February 22). The benefits of being in two minds. The Conversation. https://theconversation.com/the-benefits-of-being-in-two-minds-5388#
+Kahneman, D. (2011). Thinking, Fast and Slow. Doubleday Canada.
+O’Reilly, L. (2016, March 26). How 6 colorful characters propelled M&M’s to become America’s favorite candy. Business Insider. https://www.businessinsider.com/the-story-of-the-mms-characters-2016-3
+Read Next
+Reference Guide
+Skeuomorphism
+Reference Guide
+Wireframing
+Reference Guide
+User Interface
+Reference Guide
+User Journey Map
+See All

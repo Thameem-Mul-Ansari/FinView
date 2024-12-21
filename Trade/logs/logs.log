@@ -1,0 +1,509 @@
+2024-04-29 00:53:19,532: root: INFO: mlstrat : Executing the initialize lifecycle method
+2024-04-29 00:53:23,097: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:24,512: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:24,529: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:24,529: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:24,793: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:26,112: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:27,349: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:27,351: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:27,352: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:27,602: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:28,907: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:30,023: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:30,027: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:30,028: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:30,281: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:31,678: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:32,877: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:32,879: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:32,880: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:33,144: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:34,804: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:36,028: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:36,032: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:36,033: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:36,286: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:37,599: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:39,728: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:39,732: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:39,732: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:39,998: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:41,342: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:42,598: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:42,599: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:42,600: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:43,040: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:44,531: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:45,622: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:45,625: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:45,625: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:45,891: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:47,153: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:48,255: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:48,257: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:48,259: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:48,521: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:49,835: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:51,575: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:51,576: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:51,577: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:51,828: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:53,088: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:54,286: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:54,289: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:54,290: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:54,547: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:55,794: root: INFO: Sleeping until the market opens
+2024-04-29 00:53:57,584: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:53:57,585: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:53:57,586: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:53:57,869: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:53:59,271: root: INFO: Sleeping until the market opens
+2024-04-29 00:54:00,386: root: ERROR: 'NoneType' object has no attribute 'items'
+2024-04-29 00:54:00,387: root: ERROR: Traceback (most recent call last):
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 822, in run
+    self._run_trading_session()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy_executor.py", line 685, in _run_trading_session
+    self.strategy._update_cash_with_dividends()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\_strategy.py", line 529, in _update_cash_with_dividends
+    dividends_per_share = self.get_yesterday_dividends(assets)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\strategies\strategy.py", line 3120, in get_yesterday_dividends
+    return self.data_source.get_yesterday_dividends(assets, quote=self.quote_asset)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 226, in get_yesterday_dividends
+    assets_bars = self.get_bars(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 178, in get_bars
+    response = task.result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 451, in result
+    return self.__get_result()
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "C:\Users\thame\anaconda3\envs\trader\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\data_source.py", line 168, in <lambda>
+    func = lambda args, kwargs: self._pull_source_bars(*args, **kwargs)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 231, in _pull_source_bars
+    data = self.get_barset_from_api(
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\lumibot\data_sources\alpaca_data.py", line 188, in get_barset_from_api
+    barset = client.get_stock_bars(params)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\historical\stock.py", line 102, in get_stock_bars
+    return BarSet(raw_bars)
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in __init__
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 73, in <listcomp>
+    parsed_bars[symbol] = [Bar(symbol, bar) for bar in bars]
+  File "C:\Users\thame\anaconda3\envs\trader\lib\site-packages\alpaca\data\models\bars.py", line 43, in __init__
+    BAR_MAPPING[key]: val for key, val in raw_data.items() if key in BAR_MAPPING
+AttributeError: 'NoneType' object has no attribute 'items'
+
+2024-04-29 00:54:00,388: root: INFO: mlstrat : Executing the on_bot_crash event method
+2024-04-29 00:54:00,666: root: INFO: mlstrat : [34mSleeping for 300 seconds[0m
+2024-04-29 00:54:02,227: root: INFO: Sleeping until the market opens

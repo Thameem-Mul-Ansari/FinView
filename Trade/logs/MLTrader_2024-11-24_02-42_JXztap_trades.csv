@@ -1,0 +1,5 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2024-10-22 09:30:00-04:00,MLTrader,80a11c38d2c644f7ad936045cfc2267e,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2024-10-22 09:30:00-04:00,MLTrader,80a11c38d2c644f7ad936045cfc2267e,SPY,sell,market,fill,1,gtc,0.0,1,stock,581.0499877929688,86.0,0.0
+2024-11-04 09:30:00-05:00,MLTrader,061b349624044dddafac56abd647f319,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2024-11-04 09:30:00-05:00,MLTrader,061b349624044dddafac56abd647f319,SPY,sell,market,fill,1,gtc,0.0,1,stock,571.1799926757812,131.0,0.0
